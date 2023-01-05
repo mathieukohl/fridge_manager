@@ -11,12 +11,12 @@ import './App.css';
 import {database} from './firebase'
 import {ref ,remove ,update} from "firebase/database";
 
-
 function App() {
   
   const [items, setItems] = useState([]); // Item State
   const [showAddItem, setShowAddItem] = useState(false); // To reveal add Item form
   const [loading, setloading] = useState(true); // Pre-loader before page renders
+
 
   useEffect(() => {
     setTimeout(() => {
