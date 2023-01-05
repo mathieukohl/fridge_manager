@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fridge_manager/static/css/main.3ef2190d.css",
-    "main.js": "/fridge_manager/static/js/main.6361e28b.js",
+    "main.js": "/fridge_manager/static/js/main.e3a7269a.js",
     "static/js/787.a0b36dc1.chunk.js": "/fridge_manager/static/js/787.a0b36dc1.chunk.js",
     "index.html": "/fridge_manager/index.html",
     "main.3ef2190d.css.map": "/fridge_manager/static/css/main.3ef2190d.css.map",
-    "main.6361e28b.js.map": "/fridge_manager/static/js/main.6361e28b.js.map",
+    "main.e3a7269a.js.map": "/fridge_manager/static/js/main.e3a7269a.js.map",
     "787.a0b36dc1.chunk.js.map": "/fridge_manager/static/js/787.a0b36dc1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef2190d.css",
-    "static/js/main.6361e28b.js"
+    "static/js/main.e3a7269a.js"
   ]
 }
