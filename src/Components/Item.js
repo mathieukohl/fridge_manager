@@ -22,7 +22,7 @@ const Item = ({ item, onDelete, onEdit }) => {
       }else{
         console.log("its not today")
       }
-    },[])
+    },[item.day, item.product])
 
     return (
       <div>
