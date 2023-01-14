@@ -21,7 +21,7 @@ function Itemslist() {
   useEffect(() => {
     setTimeout(() => {
         setloading(false);
-    }, 3500);
+    }, 1000);
   }, [])
 
   // Fetching from Local Storage
