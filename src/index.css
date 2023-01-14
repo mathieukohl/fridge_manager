@@ -37,7 +37,7 @@ code {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 15px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
@@ -63,6 +63,7 @@ code {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .item {
@@ -94,4 +95,8 @@ code {
 .spinnerContainer {
   margin: 20% auto;
   max-width: 15%;
+}
+
+.app-header {
+  padding-left: 10px;
 }
