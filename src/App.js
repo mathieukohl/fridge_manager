@@ -1,9 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
 import Refrigerator from './Components/Refrigerator';
+import Menu from './Components/Menu';
+import Itemslist from './Components/Items_list';
 
 function App() {
   return (
-    <Refrigerator />
+    <Router>
+      <Routes>
+          <Route exact path="/" element={< Home />} />
+          <Route path="/add-item" element={< Refrigerator />} />
+          <Route path="/menu" element={< Menu />} />
+          <Route path="/items" element={< Itemslist />} />
+      </Routes>
+    </Router>
   );
 }
 

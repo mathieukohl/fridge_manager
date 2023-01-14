@@ -1,0 +1,44 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .button-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .add-item-button,
+  .menu-ideas-button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .add-item-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .menu-ideas-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .add-item-button:hover,
+  .menu-ideas-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

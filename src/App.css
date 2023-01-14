@@ -16,6 +16,7 @@
   animation: spinner 800ms linear infinite;
 }
 
+
 @keyframes spinner {
   from {
       transform: rotate(0deg);

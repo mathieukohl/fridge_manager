@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './Button';
 import "../index.css";
 import { Link } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ const Header = ({ showForm, changeTextAndColor }) => {
           <Link to="/">
             <button className="btn_link">Home</button>
           </Link>
-          <Button onClick={showForm} color={changeTextAndColor ? 'red' : 'green'} text=     {changeTextAndColor ? 'Close' : 'Add'} />
         </header>
     )
 }

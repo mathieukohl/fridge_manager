@@ -37,7 +37,6 @@ code {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin: 15px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
@@ -56,6 +55,32 @@ code {
 .btn-block:hover {
   background: white;
   border: solid 1px black;
+}
+
+.btn_link {
+  display: inline-block;
+  background: rgb(0, 112, 218);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn_link:focus {
+  outline: none;
+  color: white;
+}
+.btn_link-block {
+  display: block;
+  width: 100%;
+}
+
+.btn_link-block:hover {
+  background: white;
+  border: solid 1px rgb(0, 112, 218);
 }
 
 .header {
@@ -99,4 +124,9 @@ code {
 
 .app-header {
   padding-left: 10px;
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
 }
