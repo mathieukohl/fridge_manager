@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = ({ showForm, changeTextAndColor }) => {
   return (
       <header className="header">
-          <Link to="/">
+          <Link to="/fridge_manager">
             <button className="btn_link">Home</button>
           </Link>
         </header>
