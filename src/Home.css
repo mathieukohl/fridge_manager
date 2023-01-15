@@ -42,3 +42,38 @@
     text-align: center;
   }
   
+  .openai-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .openai-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .openai-input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .openai-submit-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .openai-response {
+    margin-top: 20px;
+    font-size: 18px;
+  }
