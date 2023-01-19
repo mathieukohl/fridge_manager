@@ -1,5 +1,5 @@
 // Components
-import Header from './Header2';
+import Header from './Header';
 import Items from './Items';
 import '../Home.css';
 // Hooks

@@ -9,7 +9,9 @@ const Header = ({ showForm, changeTextAndColor }) => {
           <Link to="/fridge_manager">
             <button className="btn_link">Home</button>
           </Link>
-          <Button onClick={showForm} color={changeTextAndColor ? 'red' : 'green'} text=     {changeTextAndColor ? 'Close' : 'Add'} />
+          <Link to="/add-item">
+            <Button onClick={showForm} color={changeTextAndColor ? 'red' : 'green'} text=     {changeTextAndColor ? 'Close' : 'Add'} />
+          </Link>
         </header>
     )
 }

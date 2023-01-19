@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Refrigerator from './Components/Refrigerator';
 import Menu from './Components/Menu';
 import Itemslist from './Components/Items_list';
+import AddGrocery from './Components/AddGrocery';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/add-item" element={< Refrigerator />} />
           <Route path="/menu" element={< Menu />} />
           <Route path="/items" element={< Itemslist />} />
+          <Route path="/add-to-list" element={< AddGrocery />} />
       </Routes>
     </Router>
   );

@@ -11,19 +11,19 @@ const Home = () => {
             <Link to="/items">
             <button className="add-item-button">Your Items</button>
             </Link>
-            <p>What's on your refrigerator</p>
-        </div>
-        <div className="button-container">
-            <Link to="/add-item">
-            <button className="add-item-button">Add Items</button>
-            </Link>
-            <p>Add a new item to your refrigerator</p>
+            <p>What's on your refrigerator, and where you can add new items</p>
         </div>
         <div className="button-container">
             <Link to="/menu">
             <button className="menu-ideas-button">Menu Ideas</button>
             </Link>
             <p>Get ideas for a menu using the items in your refrigerator</p>
+        </div>
+        <div className="button-container">
+            <Link to="/add-to-list">
+            <button className="add-item-button">Add Items to list</button>
+            </Link>
+            <p>Add a new item to your grocery list</p>
         </div>
     </div>
   );

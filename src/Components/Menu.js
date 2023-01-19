@@ -10,7 +10,7 @@ function Menu() {
         try{
         e.preventDefault();
         const text = e.target.elements.text.value;
-        const apiKey = '';
+        const apiKey = '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';
         const res = await axios.post('https://api.openai.com/v1/engines/davinci-codex/completions', {
             prompt: text,
             api_key: apiKey,
