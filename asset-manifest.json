@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/fridge_manager/static/css/main.81bf0180.css",
-    "main.js": "/fridge_manager/static/js/main.48c8d15b.js",
+    "main.css": "/fridge_manager/static/css/main.80b54e11.css",
+    "main.js": "/fridge_manager/static/js/main.24cd6ac7.js",
     "static/js/787.a0b36dc1.chunk.js": "/fridge_manager/static/js/787.a0b36dc1.chunk.js",
+    "static/media/menu_idea.jpg": "/fridge_manager/static/media/menu_idea.b8a217559e7132a178cc.jpg",
+    "static/media/fridge.jpg": "/fridge_manager/static/media/fridge.b257bb7f7b210f0619ea.jpg",
+    "static/media/shopping-list.jpg": "/fridge_manager/static/media/shopping-list.ce855904b4030becd8ec.jpg",
     "index.html": "/fridge_manager/index.html",
-    "main.81bf0180.css.map": "/fridge_manager/static/css/main.81bf0180.css.map",
-    "main.48c8d15b.js.map": "/fridge_manager/static/js/main.48c8d15b.js.map",
+    "main.80b54e11.css.map": "/fridge_manager/static/css/main.80b54e11.css.map",
+    "main.24cd6ac7.js.map": "/fridge_manager/static/js/main.24cd6ac7.js.map",
     "787.a0b36dc1.chunk.js.map": "/fridge_manager/static/js/787.a0b36dc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81bf0180.css",
-    "static/js/main.48c8d15b.js"
+    "static/css/main.80b54e11.css",
+    "static/js/main.24cd6ac7.js"
   ]
 }
