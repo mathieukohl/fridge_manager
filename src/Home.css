@@ -1,6 +1,9 @@
 .home-container {
     text-align: center;
-    padding: 50px;
+  }
+
+  .title {
+    margin-top: 20px;
   }
   
   .button-container {
@@ -10,10 +13,11 @@
   }
   
   .add-item-button,
-  .menu-ideas-button {
-    width: 200px;
-    height: 50px;
-    margin: 20px;
+  .menu-ideas-button,
+  .add-to-list {
+    width: 95%;
+    height: 29vh;
+    margin-top: 1%;
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -22,17 +26,26 @@
   }
   
   .add-item-button {
-    background-color: #4CAF50;
+    background-image: url(Components/Img/fridge.jpg);
+    background-size: cover;
     color: white;
   }
   
   .menu-ideas-button {
-    background-color: #4CAF50;
+    background-image: url(Components/Img/menu_idea.jpg);
+    background-size: cover;
+    color: white;
+  }
+
+  .add-to-list {
+    background-image: url(Components/Img/shopping-list.jpg);
+    background-size: cover;
     color: white;
   }
   
   .add-item-button:hover,
-  .menu-ideas-button:hover {
+  .menu-ideas-button:hover
+  .add-to-list:hover {
     background-color: #3e8e41;
   }
   

@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
-import Refrigerator from './Components/Refrigerator';
+import Refrigerator from './Components/Items/Refrigerator';
 import Menu from './Components/Menu';
-import Itemslist from './Components/Items_list';
-import AddGrocery from './Components/AddGrocery';
+import Itemslist from './Components/Items/Items_list';
+import Grocerylist from './Components/Grocery/Grocery_list';
+import AddGrocery from './Components/Grocery/AddGrocery';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/menu" element={< Menu />} />
           <Route path="/items" element={< Itemslist />} />
           <Route path="/add-to-list" element={< AddGrocery />} />
+          <Route path="/groceries" element={< Grocerylist />} />
       </Routes>
     </Router>
   );

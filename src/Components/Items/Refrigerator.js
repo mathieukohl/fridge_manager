@@ -1,5 +1,5 @@
 // Components
-import Header2 from './Header2';
+import Header2 from '../Header2';
 import AddItem from './AddItem';
 // Hooks
 import { useState, useEffect } from 'react';
@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 // Packages
 import { v4 as uuidv4 } from 'uuid';
 import Swal from "sweetalert2";
-import '../App.css';
+import '../../App.css';
 
 function Refrigerator() {
   

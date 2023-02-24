@@ -1,14 +1,14 @@
 // Components
-import Header from './Header';
+import Header from '../Header';
 import Items from './Items';
-import '../Home.css';
+import '../../Home.css';
 // Hooks
 import { useState, useEffect } from 'react';
 // Packages
 import { v4 as uuidv4 } from 'uuid';
 import Swal from "sweetalert2";
-import '../App.css';
-import {database} from '../firebase'
+import '../../App.css';
+import {database} from '../../firebase'
 import {ref ,remove ,update} from "firebase/database";
 
 

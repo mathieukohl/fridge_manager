@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPencilAlt, FaTimes } from 'react-icons/fa';
-import "../index.css"
+import "../../index.css"
 import { format } from 'date-fns'
 
 const Item = ({ item, onDelete, onEdit }) => {

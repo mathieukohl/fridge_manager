@@ -1,5 +1,5 @@
-import Item from './Item';
-import "../index.css"
+import Item from '../Items/Item';
+import "../../index.css"
 
 const Items = ({ items, onDelete, onEdit }) => {
   return (
